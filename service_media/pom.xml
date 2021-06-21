@@ -11,14 +11,16 @@
 
     <artifactId>service_media</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.elvesyuki.java_utils</groupId>
+            <artifactId>normal_utils</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*.*</include>
-                </includes>
-            </resource>
             <resource>
                 <directory>src/main/java</directory>
                 <includes>
