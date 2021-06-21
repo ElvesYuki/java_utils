@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cf66c80-a346-40b1-854d-a50d921f4b03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/normal_utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_media/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_media/service_media.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_oss/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_oss/service_oss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_web/service_web.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/repositorys/maven" />
+        <option name="mavenHome" value="/usr/local/runtime/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="/usr/local/runtime/apache-maven-3.8.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uFJrDFqwuRzOVgIqsiDgsOR6mZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cf66c80-a346-40b1-854d-a50d921f4b03" name="Default Changelist" comment="" />
+      <created>1624255599700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624255599700</updated>
+      <workItem from="1624255602937" duration="1049000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="715" y="412" key="SettingsEditor" timestamp="1624255659481">
+      <screen x="0" y="29" width="2560" height="1411" />
+    </state>
+    <state x="715" y="412" key="SettingsEditor/0.29.2560.1411@0.29.2560.1411" timestamp="1624255659481" />
+    <state x="657" y="488" key="new project wizard" timestamp="1624256285091">
+      <screen x="0" y="29" width="2560" height="1411" />
+    </state>
+    <state x="657" y="488" key="new project wizard/0.29.2560.1411@0.29.2560.1411" timestamp="1624256285091" />
+  </component>
+</project>
