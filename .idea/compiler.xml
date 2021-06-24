@@ -12,6 +12,13 @@
         <module name="service_media" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java_utils" target="1.8" />
+      <module name="normal_utils" target="1.8" />
+      <module name="service_media" target="1.8" />
+      <module name="service_oss" target="1.8" />
+      <module name="service_web" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
