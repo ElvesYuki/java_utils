@@ -1,43 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf66c80-a346-40b1-854d-a50d921f4b03" name="Default Changelist" comment="Oss上传">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/elves.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/elves.xml" afterDir="false" />
+    <list default="true" id="9cf66c80-a346-40b1-854d-a50d921f4b03" name="Default Changelist" comment="更改包命名">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_utils/src/main/java/normal/config/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/normal_utils/src/main/java/com/elvesyuki/javautils/normal/config/SpringMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_utils/src/main/java/normal/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/normal_utils/src/main/java/com/elvesyuki/javautils/normal/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/normal_utils/src/main/java/normal/config/XmoApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/normal_utils/src/main/java/com/elvesyuki/javautils/normal/config/XmoApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/client/IXmoOssClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/client/IXmoOssClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/client/XmoMinioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/client/XmoMinioClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/client/XmoMinioReadClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/client/XmoMinioReadClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/client/XmoMinioWriteClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/client/XmoMinioWriteClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/config/OssConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/config/OssConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/dispatch/IOssDispatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/dispatch/IOssDispatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/dispatch/OssUploadDispatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/dispatch/OssUploadDispatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/factory/IOssFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/factory/IOssFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/factory/XmoCoverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/factory/XmoCoverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/factory/XmoUploadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/factory/XmoUploadFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/factory/XmoUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/factory/XmoUserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/handler/IExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/handler/IExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/handler/IOssCoverHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/handler/IOssCoverHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/handler/IOssUploadHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/handler/IOssUploadHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/handler/MinioCoverHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/handler/MinioCoverHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/handler/MinioExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/handler/MinioExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/handler/MinioUploadHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/handler/MinioUploadHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/object/AudioOssObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/object/AudioOssObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/object/ImgOssObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/object/ImgOssObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/object/OssObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/object/OssObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/object/VideoOssObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/object/VideoOssObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/operator/IOssCoverOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/operator/IOssCoverOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/operator/IOssUploadOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/operator/IOssUploadOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/operator/OssCoverOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/operator/OssCoverOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/operator/OssUploadOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/operator/OssUploadOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/util/OssFunctionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/util/OssFunctionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_oss/src/main/java/oss/util/OssUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_oss/src/main/java/com/elvesyuki/javautils/oss/util/OssUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service_web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_web/src/main/java/web/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_web/src/main/java/com/elvesyuki/javautils/web/WebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_web/src/main/java/web/controller/OssController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_web/src/main/java/com/elvesyuki/javautils/web/controller/OssController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624255599700</updated>
       <workItem from="1624255602937" duration="16216000" />
-      <workItem from="1624501716309" duration="430000" />
+      <workItem from="1624501716309" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1624256714227</created>
@@ -182,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624325569286</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更改包命名">
+      <created>1624502272422</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624502272422</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更改包命名">
+      <created>1624502339095</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624502339095</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +171,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Oss上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oss上传" />
+    <MESSAGE value="更改包命名" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改包命名" />
   </component>
   <component name="WindowStateProjectService">
     <state x="899" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624502149189">
@@ -202,10 +183,14 @@
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
     <state x="1172" y="479" key="#com.intellij.ide.util.TreeClassChooserDialog/0.29.2560.1411@0.29.2560.1411" timestamp="1624501902492" />
-    <state x="957" y="343" key="CommitChangelistDialog2" timestamp="1624325569195">
+    <state x="1318" y="387" key="CommitChangelistDialog2" timestamp="1624502390574">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state x="957" y="343" key="CommitChangelistDialog2/0.29.2560.1411@0.29.2560.1411" timestamp="1624325569195" />
+    <state x="1318" y="387" key="CommitChangelistDialog2/0.29.2560.1411@0.29.2560.1411" timestamp="1624502390574" />
+    <state x="69" y="157" key="DiffContextDialog" timestamp="1624502366708">
+      <screen x="0" y="29" width="2560" height="1411" />
+    </state>
+    <state x="69" y="157" key="DiffContextDialog/0.29.2560.1411@0.29.2560.1411" timestamp="1624502366708" />
     <state width="1573" height="358" key="GridCell.Tab.0.bottom" timestamp="1624502155157">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
@@ -258,10 +243,10 @@
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
     <state x="659" y="442" key="SettingsEditor/0.29.2560.1411@0.29.2560.1411" timestamp="1624263240748" />
-    <state x="693" y="472" key="Vcs.Push.Dialog.v2" timestamp="1624325622971">
+    <state x="693" y="472" key="Vcs.Push.Dialog.v2" timestamp="1624502374681">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state x="693" y="472" key="Vcs.Push.Dialog.v2/0.29.2560.1411@0.29.2560.1411" timestamp="1624325622971" />
+    <state x="693" y="472" key="Vcs.Push.Dialog.v2/0.29.2560.1411@0.29.2560.1411" timestamp="1624502374681" />
     <state x="657" y="488" key="new project wizard" timestamp="1624256285091">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
