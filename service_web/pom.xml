@@ -46,7 +46,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.4.2</version>
                 <configuration>
-                    <mainClass>web.WebApplication</mainClass>
+                    <mainClass>com.elvesyuki.javautils.web.WebApplication</mainClass>
                     <includeSystemScope>true</includeSystemScope>
                 </configuration>
             </plugin>

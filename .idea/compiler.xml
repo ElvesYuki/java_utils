@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service_media" />
+        <module name="normal_utils" />
         <module name="service_oss" />
         <module name="service_web" />
-        <module name="normal_utils" />
+        <module name="service_media" />
       </profile>
     </annotationProcessing>
   </component>
