@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf66c80-a346-40b1-854d-a50d921f4b03" name="Default Changelist" comment="更改包命名">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e3d57350-0cc1-49c8-beae-47cb6dcc6754" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/elves.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_utils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/normal_utils/normal_utils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_media/service_media.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_oss/service_oss.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_web/service_web.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,231 +28,111 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1uFJrDFqwuRzOVgIqsiDgsOR6mZ" />
+  <component name="ProjectId" id="1uNPGnxY9VfXtoYge8eUD9AjT6b" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service_web/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="oss.util" />
-      <recent name="normal.config" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/service_web/src/main/resources" />
-      <recent name="$PROJECT_DIR$/service_oss/src/main/java/oss" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.WebApplication">
-    <configuration name="WebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="service_web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.elvesyuki.javautils.web.WebApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service_web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.elvesyuki.javautils.web.WebApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.WebApplication" />
-      <item itemvalue="Spring Boot.WebApplication (1)" />
-    </list>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.18063508" />
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SpringGeneralSettings">
-    <option name="allowAutoConfigurationMode" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9cf66c80-a346-40b1-854d-a50d921f4b03" name="Default Changelist" comment="" />
-      <created>1624255599700</created>
+      <changelist id="e3d57350-0cc1-49c8-beae-47cb6dcc6754" name="Default Changelist" comment="" />
+      <created>1624502980092</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624255599700</updated>
-      <workItem from="1624255602937" duration="16216000" />
-      <workItem from="1624501716309" duration="677000" />
+      <updated>1624502980092</updated>
+      <workItem from="1624502984216" duration="37000" />
     </task>
-    <task id="LOCAL-00001" summary="init">
-      <created>1624256714227</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1624256714227</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Oss上传">
-      <created>1624271435853</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1624271435853</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Oss上传">
-      <created>1624325569286</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1624325569286</updated>
-    </task>
-    <task id="LOCAL-00004" summary="更改包命名">
-      <created>1624502272422</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1624502272422</updated>
-    </task>
-    <task id="LOCAL-00005" summary="更改包命名">
-      <created>1624502339095</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1624502339095</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
-    <MESSAGE value="Oss上传" />
-    <MESSAGE value="更改包命名" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改包命名" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="899" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624502149189">
+    <state x="635" y="319" key="CommitChangelistDialog2" timestamp="1624503194893">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state x="899" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.29.2560.1411@0.29.2560.1411" timestamp="1624502149189" />
-    <state x="1172" y="479" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1624501902492">
+    <state x="635" y="319" key="CommitChangelistDialog2/0.29.2560.1411@0.29.2560.1411" timestamp="1624503194893" />
+    <state width="1990" height="325" key="GridCell.Tab.0.bottom" timestamp="1624503039114">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state x="1172" y="479" key="#com.intellij.ide.util.TreeClassChooserDialog/0.29.2560.1411@0.29.2560.1411" timestamp="1624501902492" />
-    <state x="1318" y="387" key="CommitChangelistDialog2" timestamp="1624502390574">
+    <state width="1990" height="325" key="GridCell.Tab.0.bottom/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039114" />
+    <state width="1990" height="325" key="GridCell.Tab.0.center" timestamp="1624503039113">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state x="1318" y="387" key="CommitChangelistDialog2/0.29.2560.1411@0.29.2560.1411" timestamp="1624502390574" />
-    <state x="69" y="157" key="DiffContextDialog" timestamp="1624502366708">
+    <state width="1990" height="325" key="GridCell.Tab.0.center/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039113" />
+    <state width="1990" height="325" key="GridCell.Tab.0.left" timestamp="1624503039111">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state x="69" y="157" key="DiffContextDialog/0.29.2560.1411@0.29.2560.1411" timestamp="1624502366708" />
-    <state width="1573" height="358" key="GridCell.Tab.0.bottom" timestamp="1624502468684">
+    <state width="1990" height="325" key="GridCell.Tab.0.left/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039111" />
+    <state width="1990" height="325" key="GridCell.Tab.0.right" timestamp="1624503039114">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.0.bottom/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468684" />
-    <state width="1573" height="358" key="GridCell.Tab.0.center" timestamp="1624502468683">
+    <state width="1990" height="325" key="GridCell.Tab.0.right/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039114" />
+    <state width="1990" height="325" key="GridCell.Tab.1.bottom" timestamp="1624503039116">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.0.center/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468683" />
-    <state width="1573" height="358" key="GridCell.Tab.0.left" timestamp="1624502468683">
+    <state width="1990" height="325" key="GridCell.Tab.1.bottom/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039116" />
+    <state width="1990" height="325" key="GridCell.Tab.1.center" timestamp="1624503039115">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.0.left/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468683" />
-    <state width="1573" height="358" key="GridCell.Tab.0.right" timestamp="1624502468683">
+    <state width="1990" height="325" key="GridCell.Tab.1.center/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039115" />
+    <state width="1990" height="325" key="GridCell.Tab.1.left" timestamp="1624503039115">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.0.right/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468683" />
-    <state width="1573" height="358" key="GridCell.Tab.1.bottom" timestamp="1624502468684">
+    <state width="1990" height="325" key="GridCell.Tab.1.left/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039115" />
+    <state width="1990" height="325" key="GridCell.Tab.1.right" timestamp="1624503039116">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.1.bottom/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468684" />
-    <state width="1573" height="358" key="GridCell.Tab.1.center" timestamp="1624502468684">
+    <state width="1990" height="325" key="GridCell.Tab.1.right/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039116" />
+    <state width="1990" height="325" key="GridCell.Tab.2.bottom" timestamp="1624503039118">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.1.center/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468684" />
-    <state width="1573" height="358" key="GridCell.Tab.1.left" timestamp="1624502468684">
+    <state width="1990" height="325" key="GridCell.Tab.2.bottom/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039118" />
+    <state width="1990" height="325" key="GridCell.Tab.2.center" timestamp="1624503039117">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.1.left/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468684" />
-    <state width="1573" height="358" key="GridCell.Tab.1.right" timestamp="1624502468684">
+    <state width="1990" height="325" key="GridCell.Tab.2.center/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039117" />
+    <state width="1990" height="325" key="GridCell.Tab.2.left" timestamp="1624503039117">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.1.right/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468684" />
-    <state width="1573" height="358" key="GridCell.Tab.2.bottom" timestamp="1624502468684">
+    <state width="1990" height="325" key="GridCell.Tab.2.left/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039117" />
+    <state width="1990" height="325" key="GridCell.Tab.2.right" timestamp="1624503039118">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.2.bottom/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468684" />
-    <state width="1573" height="358" key="GridCell.Tab.2.center" timestamp="1624502468684">
+    <state width="1990" height="325" key="GridCell.Tab.2.right/0.29.2560.1411@0.29.2560.1411" timestamp="1624503039118" />
+    <state x="488" y="390" key="SettingsEditor" timestamp="1624503020774">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.2.center/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468684" />
-    <state width="1573" height="358" key="GridCell.Tab.2.left" timestamp="1624502468684">
+    <state x="488" y="390" key="SettingsEditor/0.29.2560.1411@0.29.2560.1411" timestamp="1624503020774" />
+    <state x="722" y="482" key="Vcs.Push.Dialog.v2" timestamp="1624503132743">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.2.left/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468684" />
-    <state width="1573" height="358" key="GridCell.Tab.2.right" timestamp="1624502468684">
+    <state x="722" y="482" key="Vcs.Push.Dialog.v2/0.29.2560.1411@0.29.2560.1411" timestamp="1624503132743" />
+    <state x="827" y="539" key="git4idea.merge.GitPullDialog" timestamp="1624503122198">
       <screen x="0" y="29" width="2560" height="1411" />
     </state>
-    <state width="1573" height="358" key="GridCell.Tab.2.right/0.29.2560.1411@0.29.2560.1411" timestamp="1624502468684" />
-    <state x="659" y="442" key="SettingsEditor" timestamp="1624263240748">
-      <screen x="0" y="29" width="2560" height="1411" />
-    </state>
-    <state x="659" y="442" key="SettingsEditor/0.29.2560.1411@0.29.2560.1411" timestamp="1624263240748" />
-    <state x="693" y="472" key="Vcs.Push.Dialog.v2" timestamp="1624502374681">
-      <screen x="0" y="29" width="2560" height="1411" />
-    </state>
-    <state x="693" y="472" key="Vcs.Push.Dialog.v2/0.29.2560.1411@0.29.2560.1411" timestamp="1624502374681" />
-    <state x="657" y="488" key="new project wizard" timestamp="1624256285091">
-      <screen x="0" y="29" width="2560" height="1411" />
-    </state>
-    <state x="657" y="488" key="new project wizard/0.29.2560.1411@0.29.2560.1411" timestamp="1624256285091" />
-    <state x="813" y="443" key="spring file set editor" timestamp="1624262742808">
-      <screen x="0" y="29" width="2560" height="1411" />
-    </state>
-    <state x="813" y="443" key="spring file set editor/0.29.2560.1411@0.29.2560.1411" timestamp="1624262742807" />
+    <state x="827" y="539" key="git4idea.merge.GitPullDialog/0.29.2560.1411@0.29.2560.1411" timestamp="1624503122198" />
   </component>
 </project>
