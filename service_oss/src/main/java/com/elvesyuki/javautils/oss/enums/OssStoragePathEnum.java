@@ -1,5 +1,9 @@
 package com.elvesyuki.javautils.oss.enums;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @ClassName AdminOrgController
  * @Description
@@ -8,11 +12,11 @@ package com.elvesyuki.javautils.oss.enums;
  */
 public enum OssStoragePathEnum {
 
-    DEFAULT("default", "default", "temp", "default/", "默认存储的路径"),
-    TEMP("temp", "default", "temp", "temp/", "默认存储的临时路径"),
+    DEFAULT("default", ObjectTypeEnum.DEFAULT.getObjectType(), "java-utils", "default/", "默认存储的路径", -1L),
+    TEMP("temp", ObjectTypeEnum.DEFAULT.getObjectType(), "java-utils", "temp/", "默认存储的临时路径", -1L),
 
-    DEFAULT_JSON("default_json", "json", "temp", "default/", "默认json存储的路径"),
-    DEFAULT_HTML("default_html", "html", "temp", "default/", "默认html存储的路径"),
+    DEFAULT_JSON("default_json", ObjectTypeEnum.JSON.getObjectType(), "java-utils", "default/", "默认json存储的路径", -1L, "json"),
+    DEFAULT_HTML("default_html", ObjectTypeEnum.HTML.getObjectType(), "java-utils", "default/", "默认html存储的路径", -1L,"html"),
 
     ;
 
@@ -41,12 +45,43 @@ public enum OssStoragePathEnum {
      */
     private String desc;
 
+    /**
+     * 上传的最大大小  字节数 -1L代表不限制
+     */
+    private Long maxSize = -1L;
+
+    /**
+     * 允许的文件名后缀, 空代表允许所有
+     */
+    private List<String> objectSuffix = new ArrayList<>();
+
+
     OssStoragePathEnum(String pathCode, String objectType, String bucketName, String objectPath, String desc) {
         this.pathCode = pathCode;
         this.objectType = objectType;
         this.bucketName = bucketName;
         this.objectPath = objectPath;
         this.desc = desc;
+    }
+
+
+    OssStoragePathEnum(String pathCode, String objectType, String bucketName, String objectPath, String desc, Long maxSize) {
+        this.pathCode = pathCode;
+        this.objectType = objectType;
+        this.bucketName = bucketName;
+        this.objectPath = objectPath;
+        this.desc = desc;
+        this.maxSize = maxSize;
+    }
+
+    OssStoragePathEnum(String pathCode, String objectType, String bucketName, String objectPath, String desc, Long maxSize, String ... suffix) {
+        this.pathCode = pathCode;
+        this.objectType = objectType;
+        this.bucketName = bucketName;
+        this.objectPath = objectPath;
+        this.desc = desc;
+        this.maxSize = maxSize;
+        this.objectSuffix.addAll(Arrays.asList(suffix));
     }
 
     public String getPathCode() {
@@ -87,5 +122,21 @@ public enum OssStoragePathEnum {
 
     public void setDesc(String desc) {
         this.desc = desc;
+    }
+
+    public Long getMaxSize() {
+        return maxSize;
+    }
+
+    public void setMaxSize(Long maxSize) {
+        this.maxSize = maxSize;
+    }
+
+    public List<String> getObjectSuffix() {
+        return objectSuffix;
+    }
+
+    public void setObjectSuffix(List<String> objectSuffix) {
+        this.objectSuffix = objectSuffix;
     }
 }

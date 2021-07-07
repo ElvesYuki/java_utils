@@ -10,6 +10,10 @@ public enum ObjectTypeEnum {
 
     DEFAULT("default", "default", "default", "默认类型，需要自行判断"),
 
+    IMAGE("image", "default", "default", "图像类型"),
+    VIDEO("video", "default", "default", "视频类型"),
+    AUDIO("audio", "default", "default", "音频类型"),
+
     JSON("json", "json", "application/json", "上传类型为json字符串，做文本存储用"),
     HTML("html", "html", "text/html","富文本片段"),
 
