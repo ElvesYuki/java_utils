@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 图片对象返回
  */
 @Component
-public class ImgOssObject extends OssObject implements Serializable {
+public class OssImgObject extends OssObject implements Serializable {
 
     private static final long serialVersionUID = 6575058908030437721L;
 
@@ -20,7 +20,7 @@ public class ImgOssObject extends OssObject implements Serializable {
     private Integer height;
 
     @ApiModelProperty(value = "缩略图")
-    private ImgOssObject thumbnail;
+    private OssImgObject thumbnail;
 
     public Integer getWidth() {
         return width;
@@ -38,11 +38,11 @@ public class ImgOssObject extends OssObject implements Serializable {
         this.height = height;
     }
 
-    public ImgOssObject getThumbnail() {
+    public OssImgObject getThumbnail() {
         return thumbnail;
     }
 
-    public void setThumbnail(ImgOssObject thumbnail) {
+    public void setThumbnail(OssImgObject thumbnail) {
         this.thumbnail = thumbnail;
     }
 

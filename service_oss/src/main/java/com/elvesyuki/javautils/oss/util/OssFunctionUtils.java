@@ -1,7 +1,10 @@
 package com.elvesyuki.javautils.oss.util;
 
+import com.elvesyuki.javautils.normal.dto.XmoException;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -14,6 +17,14 @@ import java.util.regex.Pattern;
  * @Date 2021/3/9 上午10:03
  */
 public class OssFunctionUtils {
+
+    public static final String MAP_KEY_BUCKET_NAME = "bucketName";
+
+    public static final String MAP_KEY_FILE_URL = "fileUrl";
+
+    public static final String MAP_KEY_FILE_NAME = "fileName";
+
+    public static final String MAP_KEY_OBJECT_NAME = "objectName";
 
     /**
      * 获取唯一文件名
@@ -39,7 +50,7 @@ public class OssFunctionUtils {
     public static String getFileSuffix(String originalFilename) {
 
         if ("".equals(originalFilename)) {
-//            throw new VianException("文件名不能为空");
+            throw new XmoException("文件名不能为空");
         }
 
         return originalFilename.substring(originalFilename.lastIndexOf(".") + 1);
@@ -64,7 +75,7 @@ public class OssFunctionUtils {
         //根据文件获取文件名
         String originalFilename = multipartFile.getOriginalFilename();
         if (null == originalFilename) {
-//            throw new VianException("获取文件名出错");
+            throw new XmoException("获取文件名出错");
         }
         //拼接文件路径
         stringBuilder.append(fileUrl);
@@ -88,18 +99,48 @@ public class OssFunctionUtils {
      *
      * @return 生成的文件存储路径(不包含bucketName)
      */
-    public static String generateFileUrl(String fileUrl, String fileSuffix) {
+    public static String generateFileUrl(String fileName, String fileUrl) {
 
         StringBuilder stringBuilder = new StringBuilder();
+
+        //根据文件获取文件名
+        if (null == fileName) {
+            throw new XmoException("获取文件名出错");
+        }
         //拼接文件路径
         stringBuilder.append(fileUrl);
         //拼接文件名
         stringBuilder.append(generateUUID());
         //拼接文件后缀
-        stringBuilder.append(fileSuffix);
+        stringBuilder.append(".");
+        stringBuilder.append(getFileSuffix(fileName));
 
         return stringBuilder.toString();
     }
+
+    /**
+     * 生成文件存储路径(不包含bucketName)
+     * 主要做：fileUrl+UUID+后缀
+     * file = 00/00/
+     * uuid = uuid
+     * 后缀 = .mp4
+     * <p>
+     * 返回  00/00/uuid.mp4
+     *
+     * @return 生成的文件存储路径(不包含bucketName)
+     */
+//    public static String generateFileUrl(String fileUrl, String fileSuffix) {
+//
+//        StringBuilder stringBuilder = new StringBuilder();
+//        //拼接文件路径
+//        stringBuilder.append(fileUrl);
+//        //拼接文件名
+//        stringBuilder.append(generateUUID());
+//        //拼接文件后缀
+//        stringBuilder.append(fileSuffix);
+//
+//        return stringBuilder.toString();
+//    }
 
     /**
      * 根据文件的真实路径分割路径参数
@@ -119,7 +160,7 @@ public class OssFunctionUtils {
         HashMap<String, String> stringStringHashMap = new HashMap<>(4);
 
         //bucketName: bucketName
-        stringStringHashMap.put("bucketName", fileUrlSplit[1]);
+        stringStringHashMap.put(MAP_KEY_BUCKET_NAME, fileUrlSplit[1]);
 
         //拼接中间的路径名：路径/路径/
         StringBuilder stringBuilder = new StringBuilder();
@@ -129,10 +170,10 @@ public class OssFunctionUtils {
                     .append(fileUrlSplit[i])
                     .append("/");
         }
-        stringStringHashMap.put("fileUrl", stringBuilder.toString());
+        stringStringHashMap.put(MAP_KEY_FILE_URL, stringBuilder.toString());
 
         //fileName：名字.后缀
-        stringStringHashMap.put("fileName", fileUrlSplit[fileUrlSplit.length - 1]);
+        stringStringHashMap.put(MAP_KEY_FILE_NAME, fileUrlSplit[fileUrlSplit.length - 1]);
 
         return stringStringHashMap;
     }
@@ -146,7 +187,7 @@ public class OssFunctionUtils {
      * HashMap<String, String>
      * bucketName
      * fileUrl
-     * fileName
+     * objectName
      */
     public static Map<String, String> getBucketNameAndObjectName(String fileUrl) {
 
@@ -155,7 +196,7 @@ public class OssFunctionUtils {
         HashMap<String, String> stringStringHashMap = new HashMap<>(4);
 
         //bucketName: bucketName
-        stringStringHashMap.put("bucketName", fileUrlSplit[1]);
+        stringStringHashMap.put(MAP_KEY_BUCKET_NAME, fileUrlSplit[1]);
 
         //拼接中间的路径名：路径/路径/
         StringBuilder stringBuilder = new StringBuilder();
@@ -165,13 +206,13 @@ public class OssFunctionUtils {
                     .append(fileUrlSplit[i])
                     .append("/");
         }
-        stringStringHashMap.put("fileUrl", stringBuilder.toString());
+        stringStringHashMap.put(MAP_KEY_FILE_URL, stringBuilder.toString());
 
         //objectName
         stringBuilder.append(fileUrlSplit[fileUrlSplit.length - 1]);
 
         //fileName：名字.后缀
-        stringStringHashMap.put("objectName", stringBuilder.toString());
+        stringStringHashMap.put(MAP_KEY_OBJECT_NAME, stringBuilder.toString());
 
         return stringStringHashMap;
     }
@@ -194,6 +235,24 @@ public class OssFunctionUtils {
                 .append(fileUrl);
 
         return stringBuilder.toString();
+    }
+
+    /**
+     * 获取内容字符串转输入流
+     *
+     * @param content 内容字符串
+     * @return
+     */
+    public static InputStream strToInputStream(String content) {
+
+        if (null == content || "".equals(content.trim())) {
+            throw new XmoException("不合法的输入内容");
+        }
+
+        ByteArrayInputStream contentInputStream = new ByteArrayInputStream(content.getBytes());
+
+        return contentInputStream;
+
     }
 
 }

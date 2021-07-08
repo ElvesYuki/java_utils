@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 视频对象返回
  */
 @Component
-public class VideoOssObject extends OssObject implements Serializable {
+public class OssVideoObject extends OssObject implements Serializable {
 
     private static final long serialVersionUID = -5551698247240745104L;
 
@@ -52,7 +52,7 @@ public class VideoOssObject extends OssObject implements Serializable {
     private Float frameRate;
 
     @ApiModelProperty(value = "视频封面")
-    private ImgOssObject thumbnail;
+    private OssImgObject thumbnail;
 
     public Integer getWidth() {
         return width;
@@ -102,11 +102,11 @@ public class VideoOssObject extends OssObject implements Serializable {
         this.frameRate = frameRate;
     }
 
-    public ImgOssObject getThumbnail() {
+    public OssImgObject getThumbnail() {
         return thumbnail;
     }
 
-    public void setThumbnail(ImgOssObject thumbnail) {
+    public void setThumbnail(OssImgObject thumbnail) {
         this.thumbnail = thumbnail;
     }
 

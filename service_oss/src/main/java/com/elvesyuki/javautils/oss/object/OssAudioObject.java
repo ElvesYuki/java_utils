@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 音频对象返回
  */
 @Component
-public class AudioOssObject extends OssObject implements Serializable {
+public class OssAudioObject extends OssObject implements Serializable {
 
     private static final long serialVersionUID = 1550466356590121826L;
 

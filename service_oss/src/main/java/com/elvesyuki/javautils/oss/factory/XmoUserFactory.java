@@ -1,6 +1,6 @@
 package com.elvesyuki.javautils.oss.factory;
 
-import com.elvesyuki.javautils.oss.object.ImgOssObject;
+import com.elvesyuki.javautils.oss.object.OssImgObject;
 import com.elvesyuki.javautils.oss.object.OssObject;
 import com.elvesyuki.javautils.oss.operator.IOssUploadOperator;
 import org.springframework.stereotype.Component;
@@ -23,7 +23,7 @@ public class XmoUserFactory extends XmoUploadFactory {
         return super.getOssObject(file, code);
     }
 
-    private ImgOssObject getUserAvatarObject(MultipartFile file) {
+    private OssImgObject getUserAvatarObject(MultipartFile file) {
         return null;
     }
 
