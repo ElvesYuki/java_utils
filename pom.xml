@@ -20,6 +20,7 @@
         <module>service_web</module>
         <module>service_media</module>
         <module>service_oss</module>
+        <module>service_test</module>
     </modules>
 
     <dependencies>
