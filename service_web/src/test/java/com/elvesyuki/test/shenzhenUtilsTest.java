@@ -2,8 +2,8 @@ package com.elvesyuki.test;
 
 import com.alibaba.excel.EasyExcel;
 import com.elvesyuki.javautils.web.WebApplication;
-import com.elvesyuki.javautils.web.object.ExamData;
-import com.elvesyuki.javautils.web.listener.ExamExcelListener;
+import com.elvesyuki.javautils.web.listener.LuoHuListener;
+import com.elvesyuki.javautils.web.object.LuoHuStudentTwo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -19,14 +19,35 @@ import java.time.LocalTime;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = WebApplication.class)
-public class otherUtilsTest {
+public class shenzhenUtilsTest {
 
-    private static final Logger logger = LoggerFactory.getLogger(otherUtilsTest.class);
+    private static final Logger logger = LoggerFactory.getLogger(shenzhenUtilsTest.class);
 
     @Test
-    public void test01() {
-        logger.info("test01");
+    public void testLuoHuStudent() {
+
+         // E:\excel\luohu\场次名单（26日）.xlsx
+
+        String fileName = "E:\\excel\\luohu\\理化.xlsx";
+        // String fileName = "E:\\excel\\luohu\\生物.xlsx";
+
+        EasyExcel.read(fileName, LuoHuStudentTwo.class, new LuoHuListener()).sheet().doRead();
+
+
+
     }
+
+
+
+
+
+
+
+
+
+
+
+
 
     @Test
     public void testLocalTime() {
@@ -38,11 +59,6 @@ public class otherUtilsTest {
     }
 
 
-    @Test
-    public void testpp() {
-        String fileName = "D:\\坪山区_PS_坪山外国语学校文源校区_008 (1).xlsx";
-        EasyExcel.read(fileName, ExamData.class, new ExamExcelListener()).sheet().doRead();
-    }
 
 
 }
