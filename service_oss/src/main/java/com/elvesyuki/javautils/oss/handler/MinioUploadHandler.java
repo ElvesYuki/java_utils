@@ -7,6 +7,7 @@ import com.elvesyuki.javautils.oss.dispatch.IOssDispatch;
 import com.elvesyuki.javautils.oss.object.OssObject;
 
 import javax.annotation.Resource;
+import java.util.concurrent.ForkJoinPool;
 
 /**
  * @ClassName MinioUploadHandler

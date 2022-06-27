@@ -2,7 +2,9 @@ package com.elvesyuki.test;
 
 import com.alibaba.excel.EasyExcel;
 import com.elvesyuki.javautils.web.WebApplication;
+import com.elvesyuki.javautils.web.listener.LuoHuExportVideoListener;
 import com.elvesyuki.javautils.web.listener.LuoHuListener;
+import com.elvesyuki.javautils.web.object.LuoHuStudentExport;
 import com.elvesyuki.javautils.web.object.LuoHuStudentTwo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -32,6 +34,18 @@ public class shenzhenUtilsTest {
         // String fileName = "E:\\excel\\luohu\\生物.xlsx";
 
         EasyExcel.read(fileName, LuoHuStudentTwo.class, new LuoHuListener()).sheet().doRead();
+
+
+
+    }
+
+    @Test
+    public void testLuoHuStudentPdf() {
+
+
+        String fileName = "E:\\excel\\luohu\\罗湖区_LH_罗湖外国语学校_010_理化.xlsx";
+
+        EasyExcel.read(fileName, LuoHuStudentExport.class, new LuoHuExportVideoListener()).sheet().doRead();
 
 
 
