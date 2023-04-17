@@ -1,6 +1,5 @@
 package com.elvesyuki.javautils.normal.enums;
 
-import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -24,7 +23,6 @@ public enum NoticeInfoEnum {
 
     ;
 
-    @NotNull(message = "当前推送码，必须填写")
     private String code;
 
     /**
@@ -37,7 +35,6 @@ public enum NoticeInfoEnum {
      */
     private String desc;
 
-    @NotNull(message = "推送类型，必须填写")
     private List<NoticeTypeEnum> noticeType = new ArrayList<>();
 
     NoticeInfoEnum(String code, long delayTime, String desc, NoticeTypeEnum... noticeType) {
