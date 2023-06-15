@@ -7,7 +7,6 @@ package com.elvesyuki.javautils.normal.utils;
  * @modified By：
  */
 public class AuthUtils {
-
     private AuthUtils() {
     }
 
