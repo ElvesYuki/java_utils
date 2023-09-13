@@ -21,7 +21,7 @@ import java.security.NoSuchAlgorithmException;
 public class HashUtils {
 
     /**
-     * Returns MD5 hash of given data and it's length.
+     * Returns MD5 hash of given data and it's length.1
      *
      * @param data must be {@link RandomAccessFile}, {@link BufferedInputStream} or byte array.
      * @param len length of data to be read for hash calculation.
