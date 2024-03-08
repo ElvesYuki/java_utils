@@ -1,5 +1,6 @@
 package com.elvesyuki.test;
 
+import com.elvesyuki.javautils.normal.config.WebSocketConfig;
 import com.elvesyuki.javautils.web.netty.handler.ClientHandler;
 import com.elvesyuki.javautils.web.netty.handler.ServerHandler;
 import io.netty.bootstrap.Bootstrap;
@@ -94,6 +95,17 @@ public class OtherNettyTest {
             }
         }
     }
+
+    @Test
+    public void NettyClientTest() {
+        WebSocketConfig webSocketConfig = new WebSocketConfig();
+        webSocketConfig.init();
+        while (true) {
+
+        }
+    }
+
+
 
 
 }
