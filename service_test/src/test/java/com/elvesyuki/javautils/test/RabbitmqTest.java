@@ -1,12 +1,10 @@
 package com.elvesyuki.javautils.test;
 
 import com.rabbitmq.client.*;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
@@ -17,7 +15,6 @@ import java.util.concurrent.TimeoutException;
  * @Author luohuan
  * @Date 2021/8/2 下午12:38
  */
-@RunWith(SpringRunner.class)
 @SpringBootTest(classes = TestApplication.class)
 public class RabbitmqTest {
 
